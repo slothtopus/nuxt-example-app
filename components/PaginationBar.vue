@@ -6,7 +6,7 @@ import EllipsisSeparator from './PaginationBar/EllipsisSeparator.vue';
 import NextButton from './PaginationBar/NextButton.vue';
 import PrevButton from './PaginationBar/PrevButton.vue';
 
-import { ITEM_TYPES } from 'ultimate-pagination/src/ultimate-pagination';
+import { ITEM_TYPES } from 'ultimate-pagination';
 
 interface Props {
   modelValue: number;
