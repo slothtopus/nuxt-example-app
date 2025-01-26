@@ -12,11 +12,12 @@ defineProps<Props>();
 
 <template>
   <main class="h-full flex flex-col justify-center p-12">
-    <span
-      @click="router.back()"
+    <NuxtLink
+      to="/"
       class="flex items-center mr-2 text-sm font-medium text-gray-600 cursor-pointer hover:text-gray-900"
-      ><ChevronLeftIcon class="size-5" /> Back</span
     >
+      <ChevronLeftIcon class="size-5" /> Back to list
+    </NuxtLink>
     <div
       class="flex h-full flex-col items-center gap-6 md:flex-row w-full max-w-[--max-width] mx-auto"
     >
