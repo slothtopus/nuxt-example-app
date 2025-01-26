@@ -11,17 +11,18 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.2.0",
+    "@nuxthub/core": "^0.8.14",
     "@nuxtjs/tailwindcss": "^6.13.1",
     "@tanstack/vue-query": "^5",
     "@vueuse/core": "^12.5.0",
     "class-variance-authority": "^0.7.1",
     "nuxt": "^3.15.2",
-    "ultimate-pagination": "^1.0.0",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
     "typescript": "^5.7.3",
-    "vue-tsc": "^2.1.10"
+    "vue-tsc": "^2.1.10",
+    "wrangler": "^3.105.1"
   }
 }

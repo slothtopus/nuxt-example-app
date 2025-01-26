@@ -9,7 +9,9 @@ npm install
 npm run dev
 ```
 
-The product listing page is at `/`. Use `/?serverPrefetch=true` to prerender the listing page on the server before display. Otherwise, a skeleton loading state will be shown while the data is fetched client-side.
+A demo Nuxthub deployment as also available at [https://nuxt-example-project.nuxt.dev/](https://nuxt-example-project.nuxt.dev/).
+
+The product listing page is at `https://nuxt-example-project.nuxt.dev/`. Use `https://nuxt-example-project.nuxt.dev/?serverPrefetch=true` to prerender the listing page on the server before display. Otherwise, a skeleton loading state will be shown while the data is fetched client-side.
 
 - Hovering over pagination controls prefetches data in advance and preloads thumbnail images
 - Hovering over a product listing preloads the main detail image
