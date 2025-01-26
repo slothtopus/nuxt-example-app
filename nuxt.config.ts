@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   vite: {
     resolve: {
       alias: {
-        'ultimate-pagination':
+        '@lib/ultimate-pagination':
           './lib/ultimate-pagination/ultimate-pagination.ts',
       },
     },

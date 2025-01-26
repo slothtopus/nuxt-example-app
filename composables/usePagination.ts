@@ -1,7 +1,7 @@
 import type { Ref } from 'vue';
 
-import type { PaginationModel } from 'ultimate-pagination';
-import { getPaginationModel } from 'ultimate-pagination';
+import type { PaginationModel } from '@lib/ultimate-pagination';
+import { getPaginationModel } from '@lib/ultimate-pagination';
 
 export const usePagination = (
   currentPage: Ref<number>,
