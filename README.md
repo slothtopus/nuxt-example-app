@@ -2,14 +2,14 @@
 
 This is an example app built with Nuxt 3 and tanstack query to show product listings and detail pages with intelligent data fetching and caching.
 
-To run locally clone the repo and then, in the same folder:
+To run locally, clone the repo and then, in the same folder:
 
 ```
 npm install
 npm run dev
 ```
 
-A demo Nuxthub deployment as also available at [https://nuxt-example-project.nuxt.dev/](https://nuxt-example-project.nuxt.dev/).
+A demo Nuxthub deployment is also available at [https://nuxt-example-project.nuxt.dev/](https://nuxt-example-project.nuxt.dev/).
 
 The product listing page is at `https://nuxt-example-project.nuxt.dev/`. Use `https://nuxt-example-project.nuxt.dev/?serverPrefetch=true` to prerender the listing page on the server before display. Otherwise, a skeleton loading state will be shown while the data is fetched client-side.
 
